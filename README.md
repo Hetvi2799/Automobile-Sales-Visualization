@@ -1,26 +1,52 @@
-# Analyzing-the-Impact-of-Recession-on-Automobile-Sales
-Analyzing the Impact of Recession on Automobile Sales
+# Project Title: Data-Driven Automobile Marketing Analysis Dashboard
 
-Let's say you have been hired by an automobile company as a data scientist. Your first task is to analyze the historical data and give the company directors insights on how the sales were affected during times of recession. You will provide a number of charts/plots to visualize the data and make it easy for the directors to understand your analysis.
+This project intends to be an interactive, data-based automobile marketing analysis dashboard. Using Python, the Dash library, and Plotly, this data visualization tool provides visually presented information on automotive sales trends, advertising expenditure, and their relation to economic factors such as recession or unemployment rates. 
 
-# About The Dataset
+## Key Features
 
-The dataset includes the following variables:
+- **Interactive Data Visualisation:** The dashboard provides a user interface where users can select data visualization based on different metric views like 'Yearly Statistics' or 'Recession Statistics'.
 
-* Date: The date of the observation.
-* Recession: A binary variable indicating recession perion; 1 means it was recession, 0 means it was normal.
-* Automobile_Sales: The number of vehicles sold during the period.
-* GDP: The per capita GDP value in USD.
-* Unemployment_Rate: The monthly unemployment rate.
-* Consumer_Confidence: A synthetic index representing consumer confidence, which can impact consumer spending and automobile purchases.
-* Seasonality_Weight: The weight representing the seasonality effect on automobile sales during the period.
-* Price: The average vehicle price during the period.
-* Advertising_Expenditure: The advertising expenditure of the company.
-* Vehicle_Type: The type of vehicles sold; Supperminicar, Smallfamiliycar, Mediumfamilycar, Executivecar, Sports.
-* Competition: The measure of competition in the market, such as the number of competitors or market share of major manufacturers.
-* Month: Month of the observation extracted from Date.
-* Year: Year of the observation extracted from Date.
-* 
- By examining various factors mentioned above from the dataset, you aim to gain insights into how recessions impact automobile sales for your company.
+- **Dash Web Interface:** The application uses the Dash framework in Python to create an interactive web-based platform.
 
-![dashboard](RecessionReportgraphs.png)
+- **Data Exploration:** Using Python's data analysis tools (such as pandas and Plotly), the application examines a dataset that spans several years and car types to provide insights into factors affecting automobile sales and their economic importance.
+
+- **Customizable Visualizations:** Users can select different statistics types from a drop-down, and depending upon the selection, another input for the year is enabled or disabled to explore the visualized data further. 
+
+- **Various Chart Types:** The application uses line graphs, bar charts, and pie charts to represent data from different perspectives.
+
+- **Reactive Environment:** Built-in with reactive programming, the graphs on the dashboard respond to inputs provided by the user.
+
+## Dependencies
+
+This project requires Python 3 and the following Python libraries installed:
+
+- [Dash](https://pypi.org/project/dash/)
+- [Pandas](https://pandas.pydata.org/)
+- [Plotly](https://plotly.com/)
+
+## Getting Started
+
+1. Clone or download the repository.
+
+```shell
+git clone https://github.com/jimmyMsh/PythonStatsVisualPractice.git
+```
+
+2. Navigate to the downloaded directory and install the required Python packages.
+
+```shell
+cd PythonStatsVisualPractice
+pip install -r requirements.txt
+```
+
+3. Run the Dash app.
+
+```shell
+python PythonStatsVisualPractice.py
+```
+
+This will start a local server. Navigate to the provided URL to interact with the application.
+
+## Purpose
+
+The primary aim of developing this application was to gain proficiency in data manipulation and visualization using Python libraries like Pandas and Plotly and to build an interactive web interface using the Dash framework. This project incorporates various aspects of data analysis and web development, including data cleaning, data visualization, implementation of user interfaces, and hosting dashboards on a web interface.
