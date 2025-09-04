@@ -1,26 +1,26 @@
-# IBM Data Visualization Course Project: Automobile Statistics Dashboard using Dash
+# Analyzing-the-Impact-of-Recession-on-Automobile-Sales
+Analyzing the Impact of Recession on Automobile Sales
 
-This project is the culmination of my work in the IBM Data Visualization course. It involves the creation of an interactive dashboard using the Dash framework and Plotly to visualize statistical data for an anonymous automobile company. The dashboard is structured into two distinct reports, each providing valuable insights into the company's performance.
+Let's say you have been hired by an automobile company as a data scientist. Your first task is to analyze the historical data and give the company directors insights on how the sales were affected during times of recession. You will provide a number of charts/plots to visualize the data and make it easy for the directors to understand your analysis.
 
-## Project Structure
+# About The Dataset
 
-### 1. Yearly Automobile Sales Statistics
+The dataset includes the following variables:
 
-- **Yearly Average Automobile Sales (Line Chart):** Explore the overarching trend in annual automobile sales over the entire data period.
+* Date: The date of the observation.
+* Recession: A binary variable indicating recession perion; 1 means it was recession, 0 means it was normal.
+* Automobile_Sales: The number of vehicles sold during the period.
+* GDP: The per capita GDP value in USD.
+* Unemployment_Rate: The monthly unemployment rate.
+* Consumer_Confidence: A synthetic index representing consumer confidence, which can impact consumer spending and automobile purchases.
+* Seasonality_Weight: The weight representing the seasonality effect on automobile sales during the period.
+* Price: The average vehicle price during the period.
+* Advertising_Expenditure: The advertising expenditure of the company.
+* Vehicle_Type: The type of vehicles sold; Supperminicar, Smallfamiliycar, Mediumfamilycar, Executivecar, Sports.
+* Competition: The measure of competition in the market, such as the number of competitors or market share of major manufacturers.
+* Month: Month of the observation extracted from Date.
+* Year: Year of the observation extracted from Date.
+* 
+ By examining various factors mentioned above from the dataset, you aim to gain insights into how recessions impact automobile sales for your company.
 
-- **Chosen Year's Insights:**
-  - **Total Monthly Automobile Sales (Line Chart):** Dive into the sales performance on a monthly basis for the selected year.
-  
-  - **Average Monthly Automobile Sales by Vehicle Type (Bar Chart):** Gain insights into the performance of each vehicle type, showcasing their monthly averages.
-  
-  - **Total Advertisement Expenditure by Vehicle (Pie Chart):** Understand the allocation of advertisement expenditure among different vehicle types.
-
-### 2. Recession Period Statistics
-
-- **Average Automobile Sales during Recession (Line Chart):** Visualize how the company performed during recession periods, providing a clear understanding of its resilience.
-
-- **Average Number of Vehicles Sold by Vehicle Type (Bar Chart):** Analyze the sales distribution among various vehicle types during recession periods.
-
-- **Total Expenditure Share by Vehicle Type during Recession (Pie Chart):** Explore the company's expenditure allocation during economic downturns, shedding light on resource management.
-
-- **Effect of Unemployment Rate on Vehicle Type and Sales (Bar Chart):** Uncover the correlation between the unemployment rate and the performance of different vehicle types, providing a deeper understanding of market dynamics.
+![dashboard](RecessionReportgraphs.png)
